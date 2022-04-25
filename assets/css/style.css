@@ -79,7 +79,8 @@ body {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     min-width: 100px;
-    
+    background-image: linear-gradient(to left,white, rgb(152, 152, 152));
+        
 }
 .card2 {
     width: 33%;
@@ -91,6 +92,7 @@ body {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     min-width: 100px;    
+    background-image: linear-gradient(to left,white, rgb(152, 152, 152));
 }
 .card3 {
     width: 33%;
@@ -102,6 +104,7 @@ body {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     min-width: 50px;
+    background-image: linear-gradient(to left,white, rgb(152, 152, 152));
 }
 .card1 img {
     width: 100%;
@@ -265,3 +268,8 @@ body {
     "pie        pie        pie";
     }
 }
+
+.imgcard:hover{
+    transform: translate(1px, 1px);
+}
+
